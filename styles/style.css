@@ -1,0 +1,40 @@
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	margin:0;
+	background-color: lightgray;
+	display: flex;
+	    flex-flow: column;
+	justify-content: center;
+	    align-items: center;
+	width: 100%;
+	
+}
+
+.outerbox {
+	border: 2px solid black;
+	width: 80%;
+	
+	
+}
+.main {
+	
+	display:flex;
+	flex-flow:column;
+	border-bottom: 2px solid black;
+}
+.header {
+	
+	position:relative;
+	border-bottom: 2px solid black;
+	
+}
+.header img {
+    width: 100%;
+    height: auto;
+}	
+.footer, .main {
+	padding: 10px 10px 10px 10px ;
+}
